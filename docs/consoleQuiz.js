@@ -64,7 +64,7 @@
     questions[randomQ].displayQuestion();
     
     // 5. Use the 'prompt' function to ask the user for the correct answer.
-    var answer = parseInt(prompt('Please select the correct answer.', '0, 1, 2, 3'));
+    var answer = parseInt(prompt('Please and insert the correct answer and then open your browser console to check it.', '0, 1, 2, 3'));
     
     questions[randomQ].checkAnswer(answer);
 
